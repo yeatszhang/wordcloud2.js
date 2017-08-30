@@ -83,6 +83,7 @@ Notice: `hover` and `click` are currently only for HTML5 canvas word clouds.
 
 * `hover`: callback to call when the cursor enters or leaves a region occupied by a word. The callback will take arguments `callback(item, dimension, event)`, where `event` is the original `mousemove` event.
 * `click`: callback to call when the user clicks on a word. The callback will take arguments `callback(item, dimension, event)`, where `event` is the original `click` event.
+* `bgClick`: callback to call when the user clicks on background. The callback will take argument `callback(event)`, where `event` is the original `click` event.
 
 ## Events
 

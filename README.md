@@ -1,5 +1,7 @@
 # wordcloud2.js [![Build Status](https://travis-ci.org/timdream/wordcloud2.js.svg?branch=gh-pages)](https://travis-ci.org/timdream/wordcloud2.js) [![npm version](https://badge.fury.io/js/wordcloud.svg)](http://badge.fury.io/js/wordcloud)
 
+This library is a fork from https://github.com/timdream/wordcloud2.js which add background click event.
+
 Create a tag cloud/[Wordle](http://www.wordle.net/) presentation on 2D canvas or HTML.
 
 This library is a spin-off project from [HTML5 Word Cloud](https://github.com/timdream/wordcloud).

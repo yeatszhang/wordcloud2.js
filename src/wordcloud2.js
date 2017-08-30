@@ -213,7 +213,8 @@ if (!window.clearImmediate) {
       classes: null,
 
       hover: null,
-      click: null
+      click: null,
+      bgClick: null,
     };
 
     if (options) {
@@ -418,6 +419,9 @@ if (!window.clearImmediate) {
     var wordcloudclick = function wordcloudclick(evt) {
       var info = getInfoGridFromMouseTouchEvent(evt);
       if (!info) {
+        if (typeof settings.bgClick === 'function') {
+          settings.bgClick(evt)
+        }
         return;
       }
 
